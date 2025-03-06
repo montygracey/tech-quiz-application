@@ -22,8 +22,8 @@ A MERN stack application that tests users' knowledge of programming concepts thr
 
 1. Clone the repository
    ```
-   git clone https://github.com/yourusername/tech-quiz.git
-   cd tech-quiz
+   git clone 
+   cd 
    ```
 
 2. Install dependencies
