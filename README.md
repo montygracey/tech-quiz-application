@@ -70,7 +70,7 @@ The application uses Cypress for both component and end-to-end testing:
 
 Run all tests:
 ```
-npm test
+npm run test
 ```
 
 Run component tests only:
