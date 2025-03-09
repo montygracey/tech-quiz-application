@@ -83,10 +83,6 @@ Run E2E tests only:
 npm run test:e2e
 ```
 
-Open Cypress Test Runner:
-```
-npm run cy:open
-```
 
 ## Project Structure
 
