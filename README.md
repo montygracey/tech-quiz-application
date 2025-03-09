@@ -2,6 +2,10 @@
 
 A MERN stack application that tests users' knowledge of programming concepts through an interactive quiz format. The application presents users with random technical questions, tracks their score, and allows them to restart the quiz after completion.
 
+## Video Demo
+
+[Watch the Tech Quiz Application in Action](https://drive.google.com/file/d/1oZyin3BYmQ50_U1JtHIc1F6rCgQcWa4c/view?usp=sharing)
+
 ## Features
 
 - Quiz with randomly selected technical questions
@@ -23,7 +27,7 @@ A MERN stack application that tests users' knowledge of programming concepts thr
 1. Clone the repository
    ```
    git clone 
-   cd 
+   cd tech-quiz
    ```
 
 2. Install dependencies
@@ -48,7 +52,21 @@ A MERN stack application that tests users' knowledge of programming concepts thr
    npm run start:dev
    ```
 
-## Running Tests
+## Testing
+
+The application uses Cypress for both component and end-to-end testing:
+
+### Component Tests
+- Quiz component testing in isolation
+- Tests for initial state, question display, navigation, and score display
+- File location: `cypress/component/Quiz.cy.jsx`
+
+### End-to-End Tests
+- Full application flow testing
+- Tests the complete user journey through the application
+- File location: `cypress/e2e/quiz.cy.js`
+
+### Running Tests
 
 Run all tests:
 ```
@@ -57,17 +75,17 @@ npm test
 
 Run component tests only:
 ```
-npx cypress run --component
+npm run test:component
 ```
 
 Run E2E tests only:
 ```
-npx cypress run --e2e
+npm run test:e2e
 ```
 
 Open Cypress Test Runner:
 ```
-npx cypress open
+npm run cy:open
 ```
 
 ## Project Structure
